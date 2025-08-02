@@ -20,7 +20,7 @@ Both models were trained and tested on a non-dedicated GPU system (CPU only), an
 
 ## 🎥 Live Test Example
 
-![Test](imagenes/testLive.png)
+![Test](testLive.png)
 
 ## 💬 Notes
 
