@@ -1,6 +1,32 @@
-# AmericanSignLanguangeRecognition
+# 🧠 American Sign Language Recognition
 
-This repository contains the project of computer vision.
+This repository contains a computer vision project focused on recognizing American Sign Language (ASL) in real-time video using neural networks.
 
-The project consist on training 2 neural networks to recognise the american sign language on live video and test which is the best option. The yolov5 model as well as the Rcnn were used as they worked fine on a no dedicated GPU computer (both runned on cpu) and the python code for trainig of each neural network is found on this repository ("YoloTraining.pdf" for yolo, "RcnnModelTrain_mobilenet.pdf" for Rcnn). Results are shown on "poster2.pdf" and the test code can be found on "RealTimeTest.pdf". 
+## 📌 Project Overview
+
+The goal was to compare the performance of two different neural network models for ASL recognition on live video:
+
+- **YOLOv5**
+- **Faster R-CNN with MobileNet**
+
+Both models were trained and tested on a non-dedicated GPU system (CPU only), and achieved functional results in real-time scenarios.
+
+## 🧪 Contents
+
+- `YoloTraining.pdf` – Explanation and code for training the YOLOv5 model.
+- `RcnnModelTrain_mobilenet.pdf` – Training process and code for the R-CNN model using MobileNet.
+- `RealTimeTest.pdf` – Python code and explanation for real-time testing of both models.
+- `poster2.pdf` – Summary of the project results, comparison, and visuals.
+
+## 🎥 Live Test Example
+
+![Test](imagenes/testLive.png)
+
+## 💬 Notes
+
+- The models were chosen for their balance between speed and accuracy, especially on low-resource hardware.
+- The code and documents are meant for educational purposes and as a learning experience in neural networks, OpenCV, and real-time processing.
+
+
+
 
